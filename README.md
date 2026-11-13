@@ -1,86 +1,52 @@
-<div align="center">
-
-# Hi there, I'm Ansh ðŸ‘‹
-### Full-Stack & Real-Time Systems Software Engineer
-*Building scalable, low-latency web applications, WebRTC architectures, and interactive distributed systems.*
-
-<br/>
-
-[![GitHub followers](https://img.shields.io/github/followers/ansh44233?label=Follow&style=social)](https://github.com/ansh44233)
-[![Profile Views](https://komarev.com/ghpvc/?username=ansh44233&color=6366f1&style=flat-square&label=PROFILE+VIEWS)](https://github.com/ansh44233)
-
-<br/>
-
-```javascript
-const ansh = {
-  pronouns: "He/Him",
-  focus: ["Real-Time Systems", "WebRTC & WebSockets", "Distributed Web Architectures"],
-  coreStack: ["Next.js", "React", "Node.js", "TypeScript", "Prisma", "PostgreSQL"],
-  currentProject: "Arise â€” High-Performance Real-Time Voice & Video Platform",
-  challenge: "Engineering sub-50ms peer-to-peer media pipelines"
-};
-```
-
-</div>
+# Ansh
+**Software Engineer** â€” Real-Time Communications, Network Protocols & Distributed Systems
 
 ---
 
-### ðŸš€ Featured Engineering Project
-
-<table>
-  <tr>
-    <td width="60%">
-      <h3>âš¡ <a href="https://github.com/ansh44233/arise">Arise â€” Real-Time Community Engine</a></h3>
-      <p>A full-stack, Discord-inspired collaboration platform featuring full-mesh WebRTC voice stages, 1080p 60fps screen sharing, real-time WebSocket messaging, and custom active speaker detection.</p>
-      <p>
-        <img src="https://img.shields.io/badge/Next.js_16-black?style=flat-square&logo=next.js" />
-        <img src="https://img.shields.io/badge/React_19-20232A?style=flat-square&logo=react" />
-        <img src="https://img.shields.io/badge/WebRTC-Mesh-333333?style=flat-square&logo=webrtc" />
-        <img src="https://img.shields.io/badge/Socket.io-010101?style=flat-square&logo=socketdotio" />
-        <img src="https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma" />
-      </p>
-    </td>
-    <td width="40%">
-      <a href="https://github.com/ansh44233/arise">
-        <img src="https://raw.githubusercontent.com/ansh44233/arise/main/public/docs/app_overview.png" width="100%" style="border-radius: 8px;" />
-      </a>
-    </td>
-  </tr>
-</table>
+I build high-performance web systems with a focus on real-time peer-to-peer protocols, custom proxy runtimes, and low-latency client-server architectures. My work centers on eliminating network overhead, handling media streams at scale, and architecting resilient full-stack applications.
 
 ---
 
-### ðŸ› ï¸ Tech Stack & Capabilities
+### Primary Engineering Domains
 
-<div align="center">
+#### 1. Real-Time Communications & Media Streaming
+- **WebRTC Mesh Architecture**: Native `RTCPeerConnection` signaling, dynamic ICE candidate negotiation, and dual STUN/TURN traversal failover for peer-to-peer audio and video transmission.
+- **WebSocket Protocols**: Low-latency bidirectional event dispatchers and connection management without reconnection thrash.
+- **Audio & Video Processing**: Browser-level `Web Audio API` pipeline engineering (`AnalyserNode`, `AudioContext`) for active speaker detection, mic test sampling buffers, and hardware track control.
+- **Stream Relaying**: Custom HLS / M3U8 video stream scrapers, edge proxies on Cloudflare Workers, and CORS mitigation servers.
 
-| Domain | Technologies |
-| :--- | :--- |
-| **Frontend Engineering** | `React 19`, `Next.js 16 (App Router)`, `TypeScript`, `Tailwind CSS 4`, `Framer Motion` |
-| **Real-Time Protocols** | `WebRTC (Mesh Architecture)`, `WebSockets (Socket.io)`, `Web Audio API` |
-| **Backend & Cloud** | `Node.js`, `Express`, `REST APIs`, `JWT Auth`, `Bcrypt` |
-| **Database & ORM** | `Prisma ORM`, `PostgreSQL`, `SQLite / Better-SQLite3` |
-| **Tools & DevOps** | `Git`, `GitHub Actions`, `Docker`, `Linux / Bash` |
-
-</div>
-
----
-
-### ðŸ“Š GitHub Activity & Metrics
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=ansh44233&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ansh44233&layout=compact&theme=tokyonight&hide_border=true" width="48%" />
-</div>
-
-<br/>
-
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ansh44233&theme=tokyonight&hide_border=true" width="96%" />
-</div>
+#### 2. Backend & System Architecture
+- **Runtimes & Frameworks**: Node.js, Next.js (App Router / Turbopack), Hono.js.
+- **Data Engineering**: Schema modeling, connection management, and queries with Prisma ORM, PostgreSQL, and SQLite.
+- **Security & Session Management**: Stateless JWT auth pipelines, bcrypt salt hashing, and scoped role-based access control.
 
 ---
 
-<div align="center">
-  <sub>Designed & Developed by <b>Ansh</b> â€¢ Passionate about building robust, high-impact software.</sub>
-</div>
+### Selected Open Source Work
+
+#### [Arise â€” Real-Time Voice, Video & Community Engine](https://github.com/ansh44233/arise)
+*Next.js 16 â€¢ React 19 â€¢ TypeScript â€¢ WebRTC â€¢ Socket.io â€¢ Prisma*
+- Engineered a full-mesh WebRTC voice channel stage supporting simultaneous multi-peer audio and 1080p 60fps desktop screen sharing.
+- Decoupled signaling listeners from dynamic React render lifecycles (`createPeerConnectionRef` pattern) to guarantee 100% persistent voice calls during client-side route transitions.
+- Designed real-time active speaker rings via local frequency analysis, eliminating server audio telemetry overhead.
+
+#### [Media & M3U8 Stream Proxy Engines](https://github.com/ansh44233)
+*Cloudflare Workers â€¢ Node.js â€¢ HLS*
+- Deployed edge-based proxies resolving cross-origin stream restrictions for live video feeds and HLS playlists.
+- Implemented high-throughput stream wrappers for media aggregation and playback pipelines.
+
+---
+
+### Technical Proficiency
+
+- **Languages**: TypeScript, JavaScript, SQL, Rust, HTML/CSS
+- **Frameworks & Libraries**: React, Next.js, Socket.io, Tailwind CSS, Framer Motion
+- **Protocols & Standards**: WebRTC, WebSockets, HTTP/2, HLS / M3U8, REST
+- **Databases & Tools**: PostgreSQL, SQLite, Prisma ORM, Git, Linux / Bash, Docker
+
+---
+
+<p align="left">
+  <a href="https://github.com/ansh44233/arise">Explore Arise</a> &nbsp;â€¢&nbsp;
+  <a href="https://github.com/ansh44233?tab=repositories">All Repositories</a>
+</p>
