@@ -40,3 +40,8 @@ I build high-performance web applications and distributed systems, specializing 
 ---
 
 [View Repositories](https://github.com/ansh44233?tab=repositories) | [Explore Arise Codebase](https://github.com/ansh44233/arise) | [Explore Kizuna](https://github.com/ansh44233/kizuna)
+
+
+### 🧮 [linear-algebra](https://github.com/ansh44233/linear-algebra)
+Zero-dependency, pure Python implementation of core linear algebra algorithms and matrix operations (addition, transposition, multiplication, determinant, identity) written from first principles without NumPy.
+- **Stack:** Python 3, Linear Algebra, Algorithms
