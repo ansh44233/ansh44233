@@ -22,9 +22,9 @@ I build high-performance web applications and distributed systems, specializing 
 - Architected route-transition persistence to keep voice calls 100% stable while navigating channels, servers, and direct messages.
 - Developed real-time active speaker detection using client-side Web Audio API frequency analysis.
 
-#### 2. [HBD Kizu — Story-Driven Interactive Quiz & Memory Engine](https://github.com/ansh44233/hbd-kizu)
+#### 2. [Kizuna (絆) — Story-Driven Interactive Memory Engine](https://github.com/ansh44233/kizuna)
 *Tech Stack: Svelte 5 (Runes), TypeScript, Vite, Tailwind CSS 4, Web Audio API*
-- Engineered an interactive visual-novel dialogue engine with branching story choices, typing animations, and soundscapes.
+- Engineered an interactive visual-novel dialogue engine with branching story choices, typing animations, and dynamic soundscapes.
 - Designed custom memory trivia mechanisms with reactive feedback, ambient audio transitions, and passcode-protected secret reveals.
 
 ---
@@ -39,4 +39,4 @@ I build high-performance web applications and distributed systems, specializing 
 
 ---
 
-[View Repositories](https://github.com/ansh44233?tab=repositories) | [Explore Arise Codebase](https://github.com/ansh44233/arise) | [Explore HBD Kizu](https://github.com/ansh44233/hbd-kizu)
+[View Repositories](https://github.com/ansh44233?tab=repositories) | [Explore Arise Codebase](https://github.com/ansh44233/arise) | [Explore Kizuna](https://github.com/ansh44233/kizuna)
